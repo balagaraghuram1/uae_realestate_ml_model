@@ -1,62 +1,44 @@
 # Python
 __pycache__/
 *.py[cod]
-*.class
+*$py.class
 *.so
 .Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-
-# Virtual environments
 venv/
 env/
-ENV/
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+*.env.local
 
 # IDE
 .vscode/
 .idea/
 *.swp
-*.swo
 
-# Jupyter
-.ipynb_checkpoints/
+# Data
+*.db
+*.sqlite3
+data/raw/
+data/processed/
 
-# Environment
-.env
-.env.local
-.env.production
-
-# ML artifacts
+# Models
+model_registry/
 *.pkl
 *.joblib
 *.h5
-*.model
-*.bin
-data/models/*
-!data/models/.gitkeep
 
 # Logs
 *.log
 logs/
 
-# OS
-.DS_Store
-Thumbs.db
+# Docker
+docker-compose.override.yml
 
-# Next.js
-.next/
-out/
-node_modules/
+# Test
+.coverage
+htmlcov/
+.pytest_cache/
