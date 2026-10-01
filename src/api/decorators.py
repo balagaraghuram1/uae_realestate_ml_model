@@ -1,4 +1,4 @@
- """API decorators for caching, rate limiting, and logging."""
+"""API decorators for caching, rate limiting, and logging."""
 import time, functools, hashlib, json, logging
 from typing import Callable, Optional
 

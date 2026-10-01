@@ -1,4 +1,4 @@
- """Investment ROI calculator for UAE real estate."""
+"""Investment ROI calculator for UAE real estate."""
 from typing import Dict
 
 def calculate_roi(purchase_price: float, annual_rental_income: float,

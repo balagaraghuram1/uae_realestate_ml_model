@@ -1,4 +1,4 @@
- """Standardized API error codes and responses."""
+"""Standardized API error codes and responses."""
 from fastapi import HTTPException
 from typing import Optional
 

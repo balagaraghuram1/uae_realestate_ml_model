@@ -1,4 +1,4 @@
- """Time series decomposition for market analysis."""
+"""Time series decomposition for market analysis."""
 import numpy as np
 import pandas as pd
 from typing import Dict

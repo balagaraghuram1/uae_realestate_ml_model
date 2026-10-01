@@ -1,4 +1,4 @@
- """Mortgage calculation utilities for UAE property financing."""
+"""Mortgage calculation utilities for UAE property financing."""
 import math
 from typing import Dict
 

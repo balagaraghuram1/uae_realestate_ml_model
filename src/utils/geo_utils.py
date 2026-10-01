@@ -1,4 +1,4 @@
- """Geospatial utility functions for UAE property data."""
+"""Geospatial utility functions for UAE property data."""
 import math
 from typing import Tuple, Dict
 

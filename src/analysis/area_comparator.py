@@ -1,4 +1,4 @@
- """Generate detailed area comparison reports."""
+"""Generate detailed area comparison reports."""
 import logging
 from typing import Dict, List
 

@@ -1,4 +1,4 @@
- """Model fallback chain for high availability predictions."""
+"""Model fallback chain for high availability predictions."""
 import logging
 from typing import List, Optional, Any
 

@@ -1,4 +1,4 @@
- """Property matching algorithm for buyer preferences."""
+"""Property matching algorithm for buyer preferences."""
 import numpy as np
 from typing import Dict, List
 

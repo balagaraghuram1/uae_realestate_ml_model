@@ -215,6 +215,15 @@ docker-compose up -d
 curl http://localhost:8000/health
 ```
 
+**Required environment variables** (docker-compose fails without them):
+
+| Variable | Description |
+|----------|-------------|
+| `POSTGRES_PASSWORD` | Database password. Set it before `docker-compose up` (e.g. `export POSTGRES_PASSWORD=$(openssl rand -base64 16)`). Referenced by both `db.POSTGRES_PASSWORD` and `api.DATABASE_URL`. |
+| `AZURE_WEBAPP_PUBLISH_PROFILE` | GitHub Actions secret for Azure deployment (never commit the file). |
+
+Secrets belong in `.env` (git-ignored) or GitHub Actions secrets — never in committed files.
+
 ### Training Models
 
 ```bash

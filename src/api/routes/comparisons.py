@@ -1,4 +1,4 @@
- """API endpoints for market and area comparisons."""
+"""API endpoints for market and area comparisons."""
 from fastapi import APIRouter, Query
 from typing import Optional, List
 

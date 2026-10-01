@@ -42,3 +42,13 @@ docker-compose.override.yml
 .coverage
 htmlcov/
 .pytest_cache/
+
+# Security additions
+.env*
+*.pem
+*.key
+node_modules/
+.DS_Store
+Thumbs.db
+
+!.env.example

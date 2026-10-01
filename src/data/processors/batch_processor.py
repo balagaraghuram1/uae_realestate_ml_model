@@ -1,4 +1,4 @@
- """Batch data processing with memory-efficient chunking."""
+"""Batch data processing with memory-efficient chunking."""
 import logging
 import pandas as pd
 from typing import Callable, Optional

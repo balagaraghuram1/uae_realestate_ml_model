@@ -1,4 +1,4 @@
- """Prediction confidence calibration for reliable uncertainty estimates."""
+"""Prediction confidence calibration for reliable uncertainty estimates."""
 import numpy as np
 from typing import Dict, Tuple
 

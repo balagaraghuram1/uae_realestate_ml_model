@@ -1,4 +1,4 @@
- """Audit logging for API operations and data changes."""
+"""Audit logging for API operations and data changes."""
 import json, logging
 from datetime import datetime
 from typing import Dict, Optional

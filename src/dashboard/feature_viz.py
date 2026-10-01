@@ -1,4 +1,4 @@
- """Feature importance visualization for model interpretability."""
+"""Feature importance visualization for model interpretability."""
 from typing import Dict, List
 
 def create_feature_importance_chart(importances: Dict[str, float], top_n: int = 15) -> Dict:

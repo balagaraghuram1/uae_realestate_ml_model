@@ -1,4 +1,4 @@
- """Property valuation API endpoint."""
+"""Property valuation API endpoint."""
 from fastapi import APIRouter
 from pydantic import BaseModel, Field
 

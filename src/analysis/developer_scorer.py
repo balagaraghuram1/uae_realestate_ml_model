@@ -1,4 +1,4 @@
- """Score real estate developers based on project history."""
+"""Score real estate developers based on project history."""
 import logging
 from typing import Dict, List, Optional
 
