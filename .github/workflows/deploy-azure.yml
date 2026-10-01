@@ -27,7 +27,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Deploy to Azure Web App
-        uses: azure/webapps-deploy@5cfb776471c748b351e1ebf5770e208a54ace016 # v2
+        uses: azure/webapps-deploy@02a81bead70021f5284939794bcec79c271ab383 # v3.0.8
         with:
           app-name: uaerealestatemlmodel-server
           slot-name: production
