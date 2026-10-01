@@ -3,6 +3,8 @@ import logging
 from typing import Dict, List, Optional
 from datetime import datetime
 
+import numpy as np
+
 logger = logging.getLogger(__name__)
 
 class ReportGenerator:

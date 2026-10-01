@@ -7,7 +7,7 @@ from src.data.processors.cleaning_pipeline import CleaningPipeline
 @pytest.fixture
 def sample_data():
     return pd.DataFrame({
-        "title": ["Luxury Apartment" * 5, "Test"],
+        "title": ["Luxury Apartment" * 5, "Test", "Duplex", "Studio", "Penthouse", "Villa"],
         "price_aed": [1500000, 2000000, 50000, 3000000, 1800000, -100],
         "size_sqft": [1450, 2000, 800, 3500, 1600, 1200],
         "bedrooms": [2, 3, 1, 4, 2, 2],
